@@ -4,7 +4,7 @@
  *
  * Retrun: Always 0 (Success)
  */
-int main(void)
+int main()
 {
 	char c = 'a';
 
