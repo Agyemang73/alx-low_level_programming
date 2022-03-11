@@ -1,10 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 /**
- * main - Entry point
- *
- * Retrun: Always 0 (Success)
+ * main - prints the alphabet in lowercase.
+ * Return: 0 on success
  */
 int main(void)
 {
