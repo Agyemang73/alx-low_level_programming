@@ -9,15 +9,15 @@
 int main(void)
 {
 	int i = '0';
-	int j = '0';
+	int j = '1';
 
-	while (i <= '9')
+	while (i <= '8')
 	{
 		while(j <= '9')
 		{
 			putchar(i);
 			putchar(j);
-			if (j == '9' && i == '9')
+			if (j == '9' && i == '8')
 			{
 				putchar('\n');
 			}
@@ -30,7 +30,7 @@ int main(void)
 		}
 		if (j >= '9')
 		{
-			j = '0';
+			j = '1';
 		}
 		i++;
 	}
