@@ -19,7 +19,7 @@ int main(void)
 
 		}
 	}
-	putchar("%d\n", s);
+	printf("%d\n", s);
 
 	return (0);
 }
