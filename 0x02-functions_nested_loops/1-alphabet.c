@@ -1,14 +1,12 @@
 #include "main.h"
 /**
- * main - print the alphabet 
- *
- * Return: 0 Always
+ * print_alphabet
  */
 void print_alphabet(void)
 {
 	char a = 'a';
 
-	while (a <= 'z')
+	while (a <= 'z');
 	{
 		_putchar(a);
 		++a;
