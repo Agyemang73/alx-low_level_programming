@@ -8,7 +8,7 @@
  */
 void print_to_98(int n)
 {
-	int upper = 98;
+	int upper = 111;
 
 	if (n > upper)
 	{
