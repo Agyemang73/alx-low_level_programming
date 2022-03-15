@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * print_to_98 - function
  *
@@ -8,7 +9,7 @@
  */
 void print_to_98(int n)
 {
-	int upper = 111;
+	int upper = 98;
 
 	if (n > upper)
 	{
