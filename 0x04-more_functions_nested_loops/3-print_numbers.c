@@ -2,14 +2,16 @@
 
 /**
  * print_numbers - function
+ *Return: Always 0
  */
 void print_numbers(void)
 {
-	int n = 48;
-
-	while (n < 58)
+	int i;
+	while (i < 10)
 	{
-		_putchar(n++);
+		_putchar(i + '0');
+		i++;
 	}
-	_putchar(10);
+
+	_putchar('\n');
 }
