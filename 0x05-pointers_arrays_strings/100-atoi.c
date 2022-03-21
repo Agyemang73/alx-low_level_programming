@@ -20,9 +20,7 @@ int _atoi(char *s)
 
 		else if (num > 0)
 			break;
-	}
-	while (*s++);
-	{
-		return ( num * sign);
-	}
+	} while (*s++);
+
+	return (num * sign);
 }
