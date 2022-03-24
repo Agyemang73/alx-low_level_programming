@@ -19,7 +19,7 @@ char *cap_string(char *s)
 				s[x] -= 32;
 			if (s[x - 1] == special[y])
 			{
-				if ((*(s + x) >= 97) && (*(s + x) <= 122))
+				if ((*(s + x) >= 97) &&  (*(s + x) <= 122))
 					*(s + x) -= 32;
 			}
 		}
