@@ -1,6 +1,8 @@
 #ifndef HEADER_FILE
 #define HEADER_FILE
 
+#include <stddef.h>
+
 int _putchar(char c);
 
 char *_memset(char *s, char b, unsigned int n);
