@@ -7,7 +7,7 @@
  */
 int is_prime(int x, int y)
 {
-	if (x % y) == 0 && y < x)
+	if ((x % y) == 0 && y < x)
 		return (0);
 	if (x == y)
 		return (1);
