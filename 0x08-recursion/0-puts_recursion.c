@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _puts_recursion - function similar to puts
+ * _puts_recursion - Function similar to puts
  *
  * @s: paramter
  */
