@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stlib.h>
+#include <stdlib.h>
 /**
  * *str_concat - function that returns a pointer
  * to the content of 2 strings
