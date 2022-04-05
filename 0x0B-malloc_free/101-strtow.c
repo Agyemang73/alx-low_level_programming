@@ -16,7 +16,7 @@ int word_Len(char *str)
 {
 	int index = 0, len = 0;
 
-	while (*str + index) && *(str + index) != ' ')
+	while (*(str + index) && *(str + index) != ' ')
 	{
 		len++;
 		index++;
